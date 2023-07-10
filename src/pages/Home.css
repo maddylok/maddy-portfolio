@@ -50,3 +50,20 @@
     font-size: 1.25rem;
     text-align: left;
 }
+
+.home {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    pointer-events: none;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

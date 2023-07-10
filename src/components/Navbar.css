@@ -72,7 +72,7 @@
     margin: 0 1rem;
 }
 
-.navigation-menu li a {
+.navigation-menu li {
     /* increases the surface area of the anchor tag to span more than just the anchor text */
     text-decoration: none;
     display: block;

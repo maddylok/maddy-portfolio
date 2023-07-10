@@ -7,27 +7,67 @@ h2 {
     padding: 20px;
 }
 
-.pokemon-zero-sum {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.title {
+    font-size: 1.5rem;
 }
 
 a.link {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+}
+
+a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+li {
+    list-style-type: none;
 }
 
 p.languages {
-    color: #7b8a7b;
-    background-color: #2d342d;
-    border-radius: 40%;
+    color: #c0c3fa;
+    background-color: #a8acff76;
+    border-radius: 9999px;
     display: inline-flex;
-    justify-content: center;
     padding: 10px;
     margin: 8px;
-    font-size: 1rem;
+    font-size: .65rem;
+}
+
+img {
+    height: 100px;
+    width: 180px;
+    border: solid 2px transparent;
+    float: left;
+}
+
+img:hover {
+    border-color: rgb(111, 231, 231);
+}
+
+.container {/* why is this not affecting the last two rows? */
+    text-align: left;
+    border: solid 1px transparent;
+    display: inline-flex;
+    flex-wrap: wrap;
+    inline-size: 500px;
+    padding: 20px;
 }
 
 
+
+.container:hover {
+    border-color: #638366;
+    transition: .5s;
+}
+
+.content-container:hover .content {
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.content-container:hover .content:hover {
+   opacity: 1 ;
+}

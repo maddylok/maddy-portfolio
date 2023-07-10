@@ -31,20 +31,16 @@ const Navbar = () => {
 			<div className={click ? "navigation-menu active" : "navigation-menu"}>
 				<ul>
 					<li className="navigation-item">
-                        {/* <Link to="home" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link> */}
-						<a className="navigation-item" href="#home">home</a>
+                        <Link to="home" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>home</Link>
+						{/* <a className="navigation-item" href="#home">home</a> */}
 					</li>
-					{/* <li className="navigation-item">
-                        <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
-						<a className="navigation-item" href="#about">about</a>
-					</li> */}
 					<li className="navigation-item">
-                        {/* <Link to="education" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Education</Link> */}
-						<a className="navigation-item" href="#education">education</a>
+                        <Link to="education" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>education</Link>
+						{/* <a className="navigation-item" href="#education">education</a> */}
 					</li>
                     <li className="navigation-item">
-                        {/* <Link to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link> */}
-                        <a className="navigation-item" href="#projects">projects</a>
+                        <Link to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>projects</Link>
+                        {/* <a className="navigation-item" href="#projects">projects</a> */}
                     </li>
 				</ul>
 			</div>
