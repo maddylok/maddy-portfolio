@@ -11,18 +11,17 @@ const Projects = () => {
             <div className="projects-container">
                 <h2>Projects</h2>
                 <div className="content-container">
-                    <div className="pokemon-zero-sum content">
-                        <a className="pokemon link" href="https://github.com/maddylok/rockpaperscissors">
-                            <img id="pokemon-img left" src={pokemon_game} />
-                            <div className="pokemon container right">
-                                <div className="title">Pokemon Zero-Sum Game</div>
-                                <div className="pokemon about">
-                                    Zero-sum game (like rock paper scissors) themed as Nintendo's beloved game, Pokemon. Play
-                                    against a cpu Pokemon trainer. First to three wins.
+                    <div className="keyboard-webpage content">
+                        <a className="keyboard link" href="#">
+                            <img id="keyboard-img left" src={keeb} />
+                            <div className="keyboard container right">
+                                <div className="title">My Keyboard Website</div>
+                                <div className="keyboard about">
+                                    Website displaying all my keyboard builds. My first React project.
                                 </div>
                                 <div className="languages">
                                     <p className="languages html">
-                                        HTML
+                                        React
                                     </p>
                                     <p className="languages css">
                                         CSS
@@ -56,17 +55,18 @@ const Projects = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="keyboard-webpage content">
-                        <a className="keyboard link" href="#">
-                            <img id="keyboard-img left" src={keeb} />
-                            <div className="keyboard container right">
-                                <div className="title">My Keyboard Website</div>
-                                <div className="keyboard about">
-                                    Website displaying all my keyboard builds. My first React project.
+                    <div className="pokemon-zero-sum content">
+                        <a className="pokemon link" href="https://github.com/maddylok/rockpaperscissors">
+                            <img id="pokemon-img left" src={pokemon_game} />
+                            <div className="pokemon container right">
+                                <div className="title">Pokemon Zero-Sum Game</div>
+                                <div className="pokemon about">
+                                    Zero-sum game (like rock paper scissors) themed as Nintendo's beloved game, Pokemon. Play
+                                    against a cpu Pokemon trainer. First to three wins.
                                 </div>
                                 <div className="languages">
                                     <p className="languages html">
-                                        React
+                                        HTML
                                     </p>
                                     <p className="languages css">
                                         CSS

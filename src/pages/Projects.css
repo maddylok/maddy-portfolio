@@ -32,7 +32,7 @@ p.languages {
     border-radius: 9999px;
     display: inline-flex;
     padding: 10px;
-    margin: 8px;
+    margin: 8.5px;
     font-size: .65rem;
 }
 
@@ -45,6 +45,7 @@ img {
 
 img:hover {
     border-color: rgb(111, 231, 231);
+    transition: 0.5s;
 }
 
 .container {/* why is this not affecting the last two rows? */
@@ -71,3 +72,4 @@ img:hover {
 .content-container:hover .content:hover {
    opacity: 1 ;
 }
+

@@ -21,7 +21,9 @@ const Home = () => {
                 </p>
                 <p>
                     I enrolled in NYU's Bridge to Tandon course where I learned the foundations of CS, which propelled my 
-                    interest further. I've worked on a small business website and have several personal projects I've built. 
+                    interest further. I taught myself HTML, JavaScript, CSS, Ruby on Rails, and React, while furthering my 
+                    knowledge in Python. I'm also familiar with Heroku, AWS, MongoDB, and DBeaver.  
+                    I've worked on a small business website and have several personal projects I've built. 
                 </p>
                 <p>    
                     When I'm not coding, I'm typically building mechanical keyboards, going for a run, surfing, crocheting,

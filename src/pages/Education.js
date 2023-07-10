@@ -14,10 +14,11 @@ export default function About() {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
+                        id="first"
                         // contentStyle={{ background: '#a2b8a2', color: '#fff' }}
                         contentStyle={{ background: '#3597a6', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #a2b8a2' }}
-                        date="2017-2021"
+                        contentArrowStyle={{ borderRight: '7px solid  #3597a6' }}
+                        date= "2017-2021"
                     >
                         <h3 className="vertical-timeline-element-title">Loyola University Chicago</h3>
                         <h4 className="vertical-timeline-element-subtitle">B.S. Biochemistry</h4>
@@ -29,8 +30,8 @@ export default function About() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         // contentStyle={{ background: '#2f362f', color: '#fff' }}
-                        contentStyle={{ background: '#d2b4ff', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid #2f362f' }}
+                        contentStyle={{ background: '#a58bcc', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid #a58bcc' }}
                         date="2022"
                     >
                         <h3 className="vertical-timeline-element-title">New York University</h3>

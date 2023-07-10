@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
 import Cursor from './components/Cursor';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Home />
       <Education />
       <Projects />
+      <Footer />
       <Cursor />
     </div>
   );

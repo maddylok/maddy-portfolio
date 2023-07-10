@@ -8,3 +8,7 @@
 }
 
 /* how to get 2017-2021 aligned to the left? */
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    width: 17% !important;
+}
