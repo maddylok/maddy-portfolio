@@ -38,7 +38,6 @@
 .navigation-item::after {
     content: '';
     position: absolute;
-    display: block;
     width: 100%;
     transform: scaleX(0);
     height: 2px;
