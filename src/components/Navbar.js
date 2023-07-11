@@ -42,6 +42,10 @@ const Navbar = () => {
                         <Link to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>projects</Link>
                         {/* <a className="navigation-item" href="#projects">projects</a> */}
                     </li>
+					<li className="navigation-item">
+                        <Link to="experience" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>experience</Link>
+                        {/* <a className="navigation-item" href="#projects">projects</a> */}
+                    </li>
 				</ul>
 			</div>
 		</nav>

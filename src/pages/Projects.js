@@ -3,6 +3,8 @@ import '../pages/Projects.css';
 import pokemon_game from './images/pokemon_game.png';
 import calculator from './images/calculator.png';
 import keeb from './images/keeb.png';
+import abstract from './images/abstract.png';
+import medabstract from '../pages/medabstract.pdf';
 
 const Projects = () => {
     document.body.style.backgroundColor = "#162c16"
@@ -100,13 +102,13 @@ const Projects = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="instagram-data-science content">
-                        <a className="instagram link" href="#">
-                            <img id="pokemon-img left" src={pokemon_game} />
+                    <div className="medical-research content">
+                        <a className="med-research link" href={medabstract}>
+                            <img id="med-img left" src={abstract} />
                             <div className="data container right">
-                                <div className="title">Mock Data Science Project</div>
+                                <div className="title">Predictors of Discharge to Skilled Nursing Facilites for Adult Trauma Patients</div>
                                 <div className="data about">
-                                    Mock data science project for instagram audience numbers.
+                                    First author of medical research abstract at UC Irvine Medical Center. Utilized SQL to manage large datasets. 
                                 </div>
                                 <div className="languages">
                                     <p className="languages html">

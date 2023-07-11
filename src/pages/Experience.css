@@ -1,0 +1,35 @@
+.experience {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: montserratbold;
+}
+
+.column {
+    width: 33%;
+    float: left;
+}
+
+.row {
+    padding: 0 15px;
+}
+
+.job-title {
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+.job-date {
+    font-size: .85rem;
+    font-family: montserratitalic;
+    padding: 8px;
+}
+
+.job-description {
+    padding: 9px
+}
+

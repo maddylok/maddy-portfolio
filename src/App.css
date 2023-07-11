@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: montserratbold;
-  src: url('./Montserrat/static/Montserrat-Regular.ttf');
+  src: url('./Montserrat/static/Montserrat-Medium.ttf');
 }
 
 @font-face {
@@ -13,6 +13,10 @@
   src: url('./Montserrat/static/Montserrat-Light.ttf');
 }
 
+@font-face {
+  font-family: montserratitalic;
+  src: url('./Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+}
 
 .App {
   text-align: center;

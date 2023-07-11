@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
+import Experience from './pages/Experience';
 import Cursor from './components/Cursor';
 import Footer from './pages/Footer';
 
@@ -22,6 +23,7 @@ function App() {
       <Home />
       <Education />
       <Projects />
+      <Experience />
       <Footer />
       <Cursor />
     </div>

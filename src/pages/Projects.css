@@ -61,10 +61,10 @@ img:hover {
 
 
 
-.container:hover {
+/* .container:hover {
     border-color: #638366;
     transition: .5s;
-}
+} */
 
 .content-container:hover .content {
     opacity: 0.5;
