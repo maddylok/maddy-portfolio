@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.ddc129d8.css",
-    "main.js": "/myportfolio/static/js/main.39d5d000.js",
-    "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
-    "static/media/keeb.png": "/myportfolio/static/media/keeb.d6ac3aa833a7350fdf2e.png",
-    "static/media/pokemon_game.png": "/myportfolio/static/media/pokemon_game.e3a497ad00d1bc9f6660.png",
-    "static/media/calculator.png": "/myportfolio/static/media/calculator.0cab11839126a9ab5065.png",
-    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/myportfolio/static/media/Montserrat-Italic-VariableFont_wght.ef11b720b9a6cfb9a317.ttf",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/myportfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/Montserrat-Medium.ttf": "/myportfolio/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
-    "static/media/Montserrat-Light.ttf": "/myportfolio/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
-    "static/media/abstract.png": "/myportfolio/static/media/abstract.c42a55b9e609ccf89fda.png",
-    "static/media/medabstract.pdf": "/myportfolio/static/media/medabstract.5b22f96779cf99b8cf3f.pdf",
-    "static/media/MaddyLok_Resume_FS.pdf": "/myportfolio/static/media/MaddyLok_Resume_FS.02c0e1536514ea665bd2.pdf",
-    "index.html": "/myportfolio/index.html",
-    "main.ddc129d8.css.map": "/myportfolio/static/css/main.ddc129d8.css.map",
-    "main.39d5d000.js.map": "/myportfolio/static/js/main.39d5d000.js.map",
-    "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
+    "main.css": "/maddy-portfolio/static/css/main.70b3c363.css",
+    "main.js": "/maddy-portfolio/static/js/main.72c4a10a.js",
+    "static/js/787.1f11dfe9.chunk.js": "/maddy-portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/keeb.png": "/maddy-portfolio/static/media/keeb.d6ac3aa833a7350fdf2e.png",
+    "static/media/pokemon_game.png": "/maddy-portfolio/static/media/pokemon_game.e3a497ad00d1bc9f6660.png",
+    "static/media/calculator.png": "/maddy-portfolio/static/media/calculator.0cab11839126a9ab5065.png",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/maddy-portfolio/static/media/Montserrat-Italic-VariableFont_wght.ef11b720b9a6cfb9a317.ttf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/maddy-portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/Montserrat-Medium.ttf": "/maddy-portfolio/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Light.ttf": "/maddy-portfolio/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/abstract.png": "/maddy-portfolio/static/media/abstract.c42a55b9e609ccf89fda.png",
+    "static/media/medabstract.pdf": "/maddy-portfolio/static/media/medabstract.5b22f96779cf99b8cf3f.pdf",
+    "static/media/MaddyLok_Resume_FS.pdf": "/maddy-portfolio/static/media/MaddyLok_Resume_FS.02c0e1536514ea665bd2.pdf",
+    "index.html": "/maddy-portfolio/index.html",
+    "main.70b3c363.css.map": "/maddy-portfolio/static/css/main.70b3c363.css.map",
+    "main.72c4a10a.js.map": "/maddy-portfolio/static/js/main.72c4a10a.js.map",
+    "787.1f11dfe9.chunk.js.map": "/maddy-portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc129d8.css",
-    "static/js/main.39d5d000.js"
+    "static/css/main.70b3c363.css",
+    "static/js/main.72c4a10a.js"
   ]
 }
