@@ -26,15 +26,19 @@
     flex-direction: column;
 }
 
-.navigation-item:hover {
+.navigation-item {
     display: inline-block;
     position: relative;
+}
+
+.navigation-item:hover {
     color: #5f985f;
 }
 
 .navigation-item::after {
     content: '';
     position: absolute;
+    display: block;
     width: 100%;
     transform: scaleX(0);
     height: 2px;
