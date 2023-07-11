@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className="content-container">
                     <div className="keyboard-webpage content">
                         <a className="keyboard link" href="#">
-                            <img id="keyboard-img left" src={keeb} />
+                            <img id="keyboard-img left project-image" src={keeb} />
                             <div className="keyboard container right">
                                 <div className="title">My Keyboard Website</div>
                                 <div className="keyboard about">
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
                     <div className="sango-sushi content">
                         <a className="sango link" href="#">
-                            <img id="pokemon-img left" src={pokemon_game} />
+                            <img id="pokemon-img left project-image" src={pokemon_game} />
                             <div className="sango container right">
                                 <div className="title">Sango Sushi Website</div>
                                 <div className="sango about">
@@ -59,7 +59,7 @@ const Projects = () => {
                     </div>
                     <div className="pokemon-zero-sum content">
                         <a className="pokemon link" href="https://github.com/maddylok/rockpaperscissors">
-                            <img id="pokemon-img left" src={pokemon_game} />
+                            <img id="pokemon-img left project-image" src={pokemon_game} />
                             <div className="pokemon container right">
                                 <div className="title">Pokemon Zero-Sum Game</div>
                                 <div className="pokemon about">
@@ -82,7 +82,7 @@ const Projects = () => {
                     </div>
                     <div className="calculator content">
                         <a className="calculator link" href="https://github.com/maddylok/calculator">
-                            <img id="calculator-img left" src={calculator} />
+                            <img id="calculator-img left project-image" src={calculator} />
                             <div className="calculator container right">
                                 <div className="title">Scientific Calculator</div>
                                 <div className="calculator about">
@@ -104,7 +104,7 @@ const Projects = () => {
                     </div>
                     <div className="medical-research content">
                         <a className="med-research link" href={medabstract}>
-                            <img id="med-img left" src={abstract} />
+                            <img id="med-img left project-image" src={abstract} />
                             <div className="data container right">
                                 <div className="title">Predictors of Discharge to Skilled Nursing Facilites for Adult Trauma Patients</div>
                                 <div className="data about">

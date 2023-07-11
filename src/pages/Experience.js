@@ -46,6 +46,9 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+            <a className="resume" href={MaddyLok_Resume_FS}>
+                view full resume
+            </a>
         </div>
     );
 };

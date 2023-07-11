@@ -17,7 +17,7 @@ a.link {
     color: white;
 }
 
-a {
+a.link {
     display: inline-flex;
     flex-direction: row;
     padding: 8px;
@@ -47,6 +47,7 @@ img {
 img:hover {
     border-color: rgb(111, 231, 231);
     transition: 0.5s;
+    transform: scale(1.2);
 }
 
 .container {
@@ -58,13 +59,6 @@ img:hover {
     inline-size: 500px;
     padding: 20px;
 }
-
-
-
-/* .container:hover {
-    border-color: #638366;
-    transition: .5s;
-} */
 
 .content-container:hover .content {
     opacity: 0.5;

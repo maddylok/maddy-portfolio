@@ -9,6 +9,17 @@ h3 {
     font-family: montserratbold;
 }
 
+a.resume {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+a.resume:hover {
+    transform: scale(1.1);
+}
+
 .column {
     width: 33%;
     float: left;
@@ -32,4 +43,3 @@ h3 {
 .job-description {
     padding: 9px
 }
-
