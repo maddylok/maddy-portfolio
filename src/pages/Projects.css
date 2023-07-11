@@ -7,6 +7,7 @@ h2 {
     padding: 20px;
 }
 
+
 .title {
     font-size: 1.5rem;
 }
@@ -48,7 +49,8 @@ img:hover {
     transition: 0.5s;
 }
 
-.container {/* why is this not affecting the last two rows? */
+.container {
+    /* why is this not affecting the last two rows? */
     text-align: left;
     border: solid 1px transparent;
     display: inline-flex;
@@ -70,6 +72,5 @@ img:hover {
 }
 
 .content-container:hover .content:hover {
-   opacity: 1 ;
+    opacity: 1;
 }
-

@@ -16,7 +16,7 @@ const Home = () => {
                     After growing up with dreams to become a physician, graduating with a degree in biochemistry,
                     and having 1000+ hours in hospital/clinic settings, I was faced with the realization that I 
                     wanted to expand my horizons. I'd utilized SQL in several of my research labs in college,
-                    but I never pursued coding any further. During the pandemic (with the endless amount of free-time I had), I tried out a course in
+                    but I never pursued coding any further. During the pandemic (with the endless amount of free time I had), I tried out a course in
                     Python on Codecademy and soon found that I was picking it up pretty easily. 
                 </p>
                 <p>
