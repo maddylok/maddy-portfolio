@@ -124,6 +124,7 @@
     .navigation-menu {
         transition: all 0.5s ease;
         right: -110%;
+        display: none;
     }
 
     .navigation-menu {
@@ -170,5 +171,6 @@
         transition: all 0.5s ease;
         z-index: 1;
         right: 0;
+        display: block;
     }
 }

@@ -31,3 +31,13 @@
     overflow: hidden;
     z-index: -1000;
 }
+
+@media screen and (max-width: 768px) {
+  .circle {
+    display: none;
+  }
+
+  .bg {
+    display: none;
+  }
+}
