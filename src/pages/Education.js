@@ -9,7 +9,7 @@ export default function About() {
         <div className="education" id="education">
             <div className="education-container">
                 <div className="education-header">
-                    <h2>Education</h2>
+                    <h2>Experience</h2>
                 </div>
                 <VerticalTimeline>
                     <VerticalTimelineElement
@@ -55,7 +55,7 @@ export default function About() {
                             Authored an abstract for “Predictors of Risk Factors for Discharge to Skilled Nursing Facilities in 
                             Adult Trauma Patients”. Compiled data from hospital records, utilized SQL and Microsoft Excel to 
                             input and organize data, and produced timely reports. Worked alongside the chief of trauma surgery and surgical residents. 
-                            Invited to present my abstract at a surgical conference to physicians and medical students
+                            Was invited to present my abstract at a surgical conference to physicians and medical students
                             in Orlando, Florida in Feb 2020.
                         </p>
                     </VerticalTimelineElement>

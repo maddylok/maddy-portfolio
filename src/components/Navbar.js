@@ -63,7 +63,7 @@ const Navbar = () => {
 						<Link to="education" className="nav-links" spy={true} smooth={true} offset={50} duration={500} onClick={() => {
 							setIsNavExpanded(!isNavExpanded);
 						}}>
-							education
+							experience
 						</Link>
 						{/* <a className="navigation-item" href="#education">education</a> */}
 					</motion.li>
@@ -87,7 +87,7 @@ const Navbar = () => {
 						<Link to="experience" className="nav-links" spy={true} smooth={true} offset={50} duration={500} onClick={() => {
 							setIsNavExpanded(!isNavExpanded);
 						}}>
-							experience
+							education
 						</Link>
 						{/* <a className="navigation-item" href="#projects">projects</a> */}
 					</motion.li>
