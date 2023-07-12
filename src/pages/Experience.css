@@ -1,5 +1,6 @@
 .experience {
     color: white;
+    padding: 20px;
     /* display: flex; */
 }
 
@@ -23,7 +24,7 @@ a.resume:hover {
 @media (min-width: 768px) {
     .experience-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -43,5 +44,6 @@ a.resume:hover {
 }
 
 .job-description {
-    padding: 9px
+    padding: 9px;
+    margin-bottom: 30px;
 }
