@@ -1,7 +1,7 @@
 .experience {
     color: white;
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+    /* display: flex; */
 }
 
 h3 {
@@ -20,9 +20,12 @@ a.resume:hover {
     transform: scale(1.1);
 }
 
-.column {
-    width: 33%;
-    float: left;
+
+@media (min-width: 768px) {
+    .experience-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .row {
@@ -41,5 +44,6 @@ a.resume:hover {
 }
 
 .job-description {
-    padding: 9px
+    padding: 9px;
+    margin-bottom: 30px;
 }

@@ -9,12 +9,14 @@
     font-size: 4rem;
     margin-top: 1px;
     margin-bottom: 1px;
+    text-align: left;
 }
 
 .name-container p.title {
     color: white;
     font-size: 1.5rem;
     margin-top: 1px;
+    text-align: left;
 }
 
 .name-container p.bio {
@@ -30,7 +32,7 @@
     align-items: flex-start;
     justify-content: left;
     padding: 80px;
-    float: left;
+    /* float: left; */
 }
 
 .introduction {
@@ -41,9 +43,9 @@
     padding: 80px;
 }
 
-.left {
+/* .left {
     width: 35%;
-}
+} */
 
 .introduction p {
     color: #7b8a7b;
@@ -56,6 +58,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     pointer-events: none;
+    display: flex;
 }
 
 @keyframes fadeInAnimation {
@@ -66,4 +69,12 @@
     100% {
         opacity: 1;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        display: grid;
+        flex-direction: 1fr 1fr;
+    }
+
 }

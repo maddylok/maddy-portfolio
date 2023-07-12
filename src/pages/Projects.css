@@ -18,8 +18,9 @@ a.link {
 }
 
 a.link {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 8px;
 }
 
@@ -44,14 +45,14 @@ img {
     float: left;
 }
 
-img:hover {
-    border-color: rgb(111, 231, 231);
-    transition: 0.5s;
-    transform: scale(1.2);
+@media (min-width: 768px) {
+    img:hover {
+        border-color: rgb(111, 231, 231);
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
 }
-
 .container {
-    /* why is this not affecting the last two rows? */
     text-align: left;
     border: solid 1px transparent;
     display: inline-flex;
