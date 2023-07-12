@@ -26,15 +26,19 @@
     flex-direction: column;
 }
 
-.navigation-item:hover {
+.navigation-item {
     display: inline-block;
     position: relative;
+}
+
+.navigation-item:hover {
     color: #5f985f;
 }
 
 .navigation-item::after {
     content: '';
     position: absolute;
+    display: block;
     width: 100%;
     transform: scaleX(0);
     height: 2px;
@@ -101,6 +105,7 @@
 
 .hamburger:hover {
     background-color: #607160;
+    transition: .5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -112,5 +117,58 @@
 @media screen and (max-width: 768px) {
     .navigation-menu ul {
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-menu {
+        transition: all 0.5s ease;
+        right: -110%;
+    }
+
+    .navigation-menu {
+        /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+        position: absolute;
+        top: 35px;
+        /* // stacks the li tags vertically  */
+        flex-direction: column;
+        padding: 0;
+        /* // makes menu span full height and width */
+        width: 100%;
+        height: 290px;
+        background-color: #c8e2c8;
+        border: 1px solid #607160;
+        z-index: 9999;
+    }
+
+    .navigation-menu li {
+        /* // centers link text and strips off margin */
+        text-align: center;
+        margin: 0;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .navigation-menu li a {
+        color: #607160;
+        /* // increases the surface area of the anchor tag to span the full width of the menu */
+        width: 40%;
+        cursor: pointer;
+    }
+
+    .navigation-menu li:hover {
+        background-color: #a5cda55f;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-menu.expanded ul {
+        display: block;
+    }
+
+    .navigation-menu.expanded {
+        transition: all 0.5s ease;
+        z-index: 1;
+        right: 0;
     }
 }

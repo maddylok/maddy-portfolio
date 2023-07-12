@@ -1,20 +1,32 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import "../components/Navbar.css";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion"; 
 
 const Navbar = () => {
 
-    const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
+	const [click, setClick] = useState(false);
 
-    const closeMenu = () => setClick(false)
+	const handleClick = () => setClick(!click);
+	const closeMenu = () => setClick(false);
+
+	const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+	const animateFrom = {opacity: 0, y: -40}
+	const animateTo = {opacity: 1, y: 0}
+
 
 	return (
 		<nav className="navigation">
 			<a href="/home" className="brand-name">
 				maddy lok's portfolio
 			</a>
-			<button className="hamburger">
+			<button
+				className="hamburger"
+				onClick={() => {
+					setIsNavExpanded(!isNavExpanded);
+				}}
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					className="h-5 w-5"
@@ -28,24 +40,57 @@ const Navbar = () => {
 					/>
 				</svg>
 			</button>
-			<div className={click ? "navigation-menu active" : "navigation-menu"}>
+			{/* <div className={click ? "navigation-menu active" : "navigation-menu"}> */}
+			<div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
 				<ul>
-					<li className="navigation-item">
-                        <Link to="home" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>home</Link>
+					<motion.li
+						initial={animateFrom}
+						animate={animateTo}
+						transition={{delay: 0.05}}
+						className="navigation-item">
+						<Link to="home" className="nav-links" spy={true} smooth={true} offset={50} duration={500} onClick={() => {
+							setIsNavExpanded(!isNavExpanded);
+						}}>
+							home
+						</Link>
 						{/* <a className="navigation-item" href="#home">home</a> */}
-					</li>
-					<li className="navigation-item">
-                        <Link to="education" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>education</Link>
+					</motion.li>
+					<motion.li 
+						initial={animateFrom}
+						animate={animateTo}
+						transition={{delay: 0.10}}
+						className="navigation-item">
+						<Link to="education" className="nav-links" spy={true} smooth={true} offset={50} duration={500} onClick={() => {
+							setIsNavExpanded(!isNavExpanded);
+						}}>
+							education
+						</Link>
 						{/* <a className="navigation-item" href="#education">education</a> */}
-					</li>
-                    <li className="navigation-item">
-                        <Link to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>projects</Link>
-                        {/* <a className="navigation-item" href="#projects">projects</a> */}
-                    </li>
-					<li className="navigation-item">
-                        <Link to="experience" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>experience</Link>
-                        {/* <a className="navigation-item" href="#projects">projects</a> */}
-                    </li>
+					</motion.li>
+					<motion.li 
+						initial={animateFrom}
+						animate={animateTo}
+						transition={{delay: 0.20}}
+						className="navigation-item">
+						<Link to="projects" className="nav-links" spy={true} smooth={true} offset={50} duration={500} onClick={() => {
+							setIsNavExpanded(!isNavExpanded);
+						}}>
+							projects
+						</Link>
+						{/* <a className="navigation-item" href="#projects">projects</a> */}
+					</motion.li>
+					<motion.li 
+						initial={animateFrom}
+						animate={animateTo}	
+						transition={{delay: 0.30}}
+						className="navigation-item">
+						<Link to="experience" className="nav-links" spy={true} smooth={true} offset={50} duration={500} onClick={() => {
+							setIsNavExpanded(!isNavExpanded);
+						}}>
+							experience
+						</Link>
+						{/* <a className="navigation-item" href="#projects">projects</a> */}
+					</motion.li>
 				</ul>
 			</div>
 		</nav>
