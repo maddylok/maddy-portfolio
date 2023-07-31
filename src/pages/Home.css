@@ -32,7 +32,7 @@
     align-items: flex-start;
     justify-content: left;
     padding: 80px;
-    max-width: 100%;
+    overflow: hidden;
     /* float: left; */
 }
 
