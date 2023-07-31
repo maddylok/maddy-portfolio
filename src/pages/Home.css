@@ -32,9 +32,10 @@
     align-items: flex-start;
     justify-content: left;
     padding: 80px;
-    overflow: hidden;
     /* float: left; */
 }
+
+
 
 .introduction {
     display: flex;
@@ -76,6 +77,7 @@
     .home {
         display: grid;
         flex-direction: 1fr 1fr;
+        overflow: hidden;
     }
 
 }
