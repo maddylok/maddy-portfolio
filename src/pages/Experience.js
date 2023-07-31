@@ -57,7 +57,6 @@
 
 import React from "react";
 import '../pages/Experience.css';
-import MaddyLok_Resume_FS from '../pages/MaddyLok_Resume_FS.pdf';
 
 const Experience = () => {
     document.body.style.backgroundColor = "#162c16"
@@ -87,9 +86,6 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <a className="resume" href={MaddyLok_Resume_FS}>
-                view full resume
-            </a>
         </div>
     );
 };

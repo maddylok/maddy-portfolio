@@ -2,6 +2,7 @@ import React from "react";
 import '../pages/Education.css';
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import MaddyLok_Resume_FS from '../pages/MaddyLok_Resume_FS.pdf';
 
 export default function About() {
     document.body.style.backgroundColor = "#162c16"
@@ -61,6 +62,9 @@ export default function About() {
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>
+            <a className="resume" href={MaddyLok_Resume_FS}>
+                view full resume
+            </a>
         </div>
     );
 };

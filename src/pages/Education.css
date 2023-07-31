@@ -13,3 +13,15 @@
 .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
     width: 17% !important;
 }
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 2rem;
+}
+
+.resume:hover {
+    transform: scaleX(1);
+}

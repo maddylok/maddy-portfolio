@@ -14,7 +14,7 @@ const Projects = () => {
                 <h2>Projects</h2>
                 <div className="content-container">
                     <div className="keyboard-webpage content">
-                        <a className="keyboard link" href="#">
+                        <a className="keyboard link" href="https://spudkeebs-mi66m6jbt-maddylok.vercel.app/">
                             <img id="keyboard-img left project-image" src={keeb} />
                             <div className="keyboard container right">
                                 <div className="title">My Keyboard Website</div>
@@ -35,7 +35,7 @@ const Projects = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="sango-sushi content">
+                    {/* <div className="sango-sushi content">
                         <a className="sango link" href="#">
                             <img id="pokemon-img left project-image" src={pokemon_game} />
                             <div className="sango container right">
@@ -56,7 +56,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="pokemon-zero-sum content">
                         <a className="pokemon link" href="https://github.com/maddylok/rockpaperscissors">
                             <img id="pokemon-img left project-image" src={pokemon_game} />
