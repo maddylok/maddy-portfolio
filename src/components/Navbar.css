@@ -30,31 +30,31 @@
     display: inline-block;
     position: relative;
 }
+@media screen and (min-width: 768px) {
+    .navigation-item:hover {
+        color: #5f985f;
+    }
 
-.navigation-item:hover {
-    color: #5f985f;
+    .navigation-item::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #5f985f;
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-out;
+    }
+
+    .navigation-item:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
 }
-
-.navigation-item::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #5f985f;
-    transform-origin: bottom right;
-    transition: transform 0.3s ease-out;
-}
-
-.navigation-item:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-/* need to figure out how to get rid of underline on navbar border */
+    
 
 /* 
 .navigation-item:hover {
@@ -123,7 +123,7 @@
 @media screen and (max-width: 768px) {
     .navigation-menu {
         transition: all .75s ease;
-        right: -110%;
+        width: 100%;
         display: none;
     }
 
@@ -133,32 +133,30 @@
         top: 35px;
         /* // stacks the li tags vertically  */
         flex-direction: column;
-        padding: 0;
+        padding: 0px;
         /* // makes menu span full height and width */
-        width: 100%;
-        height: 290px;
+        /* max-width: 100%; */
+        height: 230px;
         background-color: #c8e2c8;
         border: 1px solid #607160;
         z-index: 999999;
+        overflow: hidden;
     }
 
     .navigation-menu li {
         /* // centers link text and strips off margin */
+        margin-left: 0px;
+        margin-right: 0px;
         text-align: center;
-        margin: 0;
         font-size: 1.5rem;
-        padding: 20px;
+        padding: 10px;
     }
 
     .navigation-menu li a {
         color: #607160;
         /* // increases the surface area of the anchor tag to span the full width of the menu */
-        width: 40%;
+        width: 100%;
         cursor: pointer;
-    }
-
-    .navigation-menu li:hover {
-        background-color: #a5cda55f;
     }
 }
 
@@ -172,6 +170,7 @@
         transition: all 0.75s ease;
         z-index: 1;
         right: 0;
+        width: 100%;
         display: block;
     }
 }
