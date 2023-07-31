@@ -80,4 +80,11 @@
         overflow: hidden;
     }
 
+    .name-container {
+        padding: 20px;
+    }
+
+    .introduction {
+        padding: 20px;
+    }
 }
